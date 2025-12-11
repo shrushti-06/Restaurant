@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    --heading-font: "Amatic SC", sans-serif;
+    --default-font: "Poppins", sans-serif;
+}
+
+body {
+    font-family: "Amatic SC", "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header_section {
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0;
+}
+
+.header_section .row {
+    --bs-gutter-x: 0;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_bar .navbar-expand-xl .navbar-nav .nav-link {
+    position: relative;
+    padding: 5px 35px;
+    text-align: center;
+    font-family: var(--default-font);
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.navbar-expand-xl .navbar-nav .nav-link:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 5%;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 20%;
+    position: absolute;
+    background: white;
+    transition: all 0.3s ease-in-out;
+    width: 0;
+}
+
+.navbar-expand-xl .navbar-nav .nav-link:hover:after {
+    width: 60%;
+    left: 20%;
+    transition: all 0.3s ease-in-out;
+    background: orange;
+}
+
+.navbar-expand-xl .navbar-nav .nav-link:hover {
+    color: orange;
+}
+
+.hero_section {
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/hero-bg.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 120px 0px;
+    background-size: cover;
+}
+
+.hero_section .hero_section_left .hero_heading {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: var(--heading-font);
+}
+
+.hero_section .hero_section_left .hero_heading #animation_text1 {
+    color: orange;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+} 
+
+.hero_section .hero_section_left .hero_heading #animation_text2 {
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+}
+
+.animate-box{
+    max-width: 100%;
+}
+
+.hero_section_content p {
+    color: #fff;
+    font-family: var(--default-font);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 15px;
+}
+
+.hero_section_btn {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hero_section .hero_section_right img {
+    animation: silde 50s linear infinite;
+    width: 75%;
+}
+
+@keyframes silde {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.hero_section .hero_section_left .hero_section_btn .explore {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 15px 25px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.hero_section .hero_section_left .hero_section_btn .explore:hover {
+    color: #000000;
+}
+
+.about_us_section {
+    padding: 120px 0;
+}
+
+.subheading {
+    font-family: var(--default-font);
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.heading {
+    font-family: var(--heading-font);
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: orange;
+}
+
+.about_us_section_right_lable {
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: url(images/bg-title-removebg-preview.png);
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    background-position: left center;
+}
+
+.about_us_section_right .about_us_section_right_point {
+    padding: 0;
+    list-style: none;
+}
+
+.about_us_section_right .about_us_section_right_point .fa-check {
+    border: 1px solid;
+    border-radius: 100%;
+    padding: 3px;
+    background: orange;
+    color: white;
+}
+
+.about_us_section_right_bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.about_us_section_right_bottom_box img {
+    margin-bottom: 25px;
+}
+
+.about_us_section_right_bottom_box p {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.menu_section .nav-link {
+    color: #000000;
+    background: #fff;
+    border-bottom: 2px solid #ddd;
+    border-radius: 0;
+    margin: 0px 8px;
+}
+
+.menu_section .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: black;
+    background: #fff;
+    border-bottom: 2px solid orange;
+}
+
+.menu_section .nav-link:hover {
+    border-bottom: 2px solid orange;
+}
+
+.tab-content .menu-item-content .menu-item-heading {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.tab-pane img {
+    margin-bottom: 15px;
+    padding: 0px 60px;
+}
+
+.fade {
+    transition: opacity .3s linear;
+}
+
+.tab-pane .menu-item-price {
+    color: orange;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.gallery_section {
+    padding: 120px 0px;
+}
+
+.reservation_img img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.reservation_section form input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #d7d7d7;
+}
+
+.reservation_section form input:focus {
+    outline: 0;
+    border: 2px solid orange;
+
+}
+
+.reservation_section form textarea {
+    width: 100%;
+    height: 175px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #d7d7d7;
+}
+
+.reservation_section form textarea:focus {
+    outline: 0;
+    border: 2px solid orange;
+}
+
+.reservation_section form .book_btn button {
+    background-color: orange;
+    border: 1px solid transparent;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.contact_us_section {
+    padding: 120px 0px;
+}
+
+.contact_us_section_box {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact_us_section_box a {
+    text-decoration: none;
+}
+
+.contact_us_section_box_content a{
+color: #000000;
+}
+
+.contact_us_section_box i {
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    background: orange;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.contact_us_section_box_content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.contact_us_section_box_content p {
+    margin: 0;
+}
+
+.footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/footer.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px 0px 0px;
+    background-position: center;
+}
+
+.footer_heading h5 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer_content p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.footer_logo_content p {
+    color: #fff;
+}
+
+.footer_logo_content .social_icon a {
+    color: #fff;
+    padding: 0px 40px 0px 0px;
+}
+
+.footer_logo_content .social_icon a:hover {
+    color: orange;
+}
+
+.right_reservred {
+    color: #fff;
+}
+
+.right_reservred a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_heading .subheading {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footer_quick_link .footer_link li {
+    list-style-type: none;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.footer_quick_link .footer_link li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_quick_link .footer_link li a:hover {
+    color: orange;
+}
+
+.footer_quick_link .footer_link li a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0%;
+    position: absolute;
+    background: white;
+    transition: all 0.3s ease-in-out;
+    width: 0;
+}
+
+.footer_quick_link .footer_link li a:hover:after {
+    width: 40%;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+    background: orange;
+}
+
+
+.footer_contact_detail {
+    display: flex;
+    align-items: center;
+}
+
+.footer_contact_detail a {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer_contact_detail a p:hover{
+color: orange;
+}
+
+
+.footer_contact_detail p {
+    color: #fff;
+    margin: 0;
+}
+
+.right_reservred a:hover {
+    color: orange;
+}
+
+
+
+
+/*Media query for screen below 1440px*/
+
+@media screen and (max-width:1440px) {
+    .hero_section .hero_section_left .hero_heading {
+        font-size: 61px;
+        line-height: 70px;
+    }
+
+    .hero_section_content p {
+        font-size: 15px;
+    }
+
+    .hero_section_btn {
+        font-size: 12px;
+    }
+
+    .hero_section .hero_section_left .hero_section_btn .explore {
+        padding: 12px 20px;
+    }
+
+    .about_us_section_right_lable {
+        font-size: 35px;
+    }
+
+    .contact_us_section_box_content p {
+        font-size: 14px;
+    }
+}
+
+/***** Media query for Sildebar *****/
+
+@media screen and (max-width:1200px) {
+
+     .nav_bar {
+        display: none;
+    } 
+
+    .slidebar_btn {
+        background: transparent;
+        outline: none;
+        border: none;
+    }
+
+    .slidebar_btn i {
+        color: white;
+        font-size: 30px;
+    }
+
+    .d-xl-none {
+        display: block !important;
+    }
+
+    .offcanvas {
+        width: 320px !important;
+    }
+
+    .offcanvas-header {
+        justify-content: space-between;
+        background: #ffa500;
+    }
+
+    .offcanvas-body {
+        padding: 20px !important;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .navbar .nav-item:first-child {
+        border-top: 1px solid rgb(202, 202, 202);
+    }
+
+    .navbar .nav-item {
+        list-style-type: none;
+        padding: 5px 0px;
+        width: 100%;
+        border-bottom: 1px solid rgb(202, 202, 202);
+    }
+
+    .nav-link {
+        padding: 8px 0px;
+    }
+
+    .social_icon_title {
+        color: #141414;
+        font-size: 18px;
+        line-height: 28px;
+        display: block;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+
+    .social_icon {
+        display: flex;
+        gap: 15px;
+        flex-wrap: nowrap;
+        font-size: 20px;
+    }
+
+    .social_icon a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .social_icon a:hover {
+        color: orange;
+    }
+
+}
+
+
+/***** End Section *****/
+
+/* Media Query For screen between 768px to 1080px*/
+
+@media screen and (min-width:768px) and (max-width:1080px) {
+
+    .hero_section {
+        background-position: 0;
+    }
+
+    .hero_section .hero_section_left .hero_heading {
+        font-size: 52px;
+        line-height: 62px;
+    }
+
+    .hero_section_btn {
+        font-size: 16px;
+    }
+
+    .hero_section .hero_section_left .hero_section_btn .explore {
+        padding: 13px 22px;
+    }
+
+    .about_us_section_right_lable {
+        font-size: 28px;
+    }
+
+    .about_us_section_right {
+        padding: 0 !important;
+    }
+}
+
+/***** End Section *****/
+
+/* Media Query For screen at 768px*/
+@media screen and (max-width:991px) {
+    .reservation_section .main_row {
+        flex-direction: column-reverse;
+    }
+
+    .footer_quick_link {
+        padding: 0 !important;
+    }
+
+}
+
+/***** End Section *****/
+
+
+/* Media Query For screen below 600px*/
+
+@media screen and (max-width:600px) {
+
+    .hero_section {
+        background-position: 0;
+    }
+
+    .hero_section .hero_section_left .hero_heading {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .hero_section_content p {
+        font-size: 16px;
+    }
+
+    .hero_section_btn {
+        font-size: 14px;
+    }
+
+    .hero_section .hero_section_left .hero_section_btn .explore {
+        padding: 12px 20px;
+    }
+
+    .about_us_section {
+        padding: 60px 0;
+    }
+
+    .about_us_section_right {
+        padding-left: 0 !important;
+    }
+
+    .about_us_section_right_lable {
+        font-size: 22px;
+    }
+
+    .about_us_section_right_bottom_box p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .gallery_section {
+        padding: 60px 0px;
+    }
+
+    .reservation_section form .book_btn button {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .contact_us_section {
+        padding: 60px 0px;
+    }
+
+    .footer_quick_link {
+        padding-left: 0 !important;
+    }
+
+}

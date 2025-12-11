@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12 mt-3">
+                    <div class="header_content">
+                        <div class="header_log">
+                            <a href="#"><img src="images/logo.png" alt="LOGO"></a>
+                        </div>
+                        <div class="nav_bar">
+                            <nav class="navbar navbar-expand-xl">
+                                <div class="container">
+                                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item"><a class="nav-link" href="#hero_section">Home</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#about_us_section">About Us</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#menu_section">Menu</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#gallery_section">Gallery</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#reservation_section">Reservation</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#contact_us_section">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="slidebar d-block d-xl-none">
+                            <button class="slidebar_btn" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#slidebar">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </button>
+
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="slidebar">
+                                <div class="offcanvas-header">
+                                    <a href="#"><img src="images/logo.png" alt="LOGO"></a>
+                                    <div class="slidbar_close_btn">
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                                    </div>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="sidebar-content">
+                                        <div class="nav-menu">
+                                            <ul class="navbar">
+                                                <li class="nav-item"><a class="nav-link" href="#hero_section">Home</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#about_us_section">About Us</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#menu_section">Menu</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#gallery_section">Gallery</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#reservation_section">Reservation</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#contact_us_section">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="sildebar_icon">
+                                            <span class="social_icon_title">FIND WITH ME</span>
+                                            <div class="social_icon">
+                                                <a href="#"><i class="fa fa-instagram icon"></i></a>
+                                                <a href="#"><i class="fa fa-linkedin icon"></i></a>
+                                                <a href="#"><i class="fa fa-twitter icon"></i></a>
+                                                <a href="#"><i class="fa fa-facebook-f icon"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="hero_section" id="hero_section">
+        <div class="container"> 
+            <div class="row align-items-center gy-3">
+                <div class="col-12 col-lg-6 col-md-12">
+                    <div class="hero_section_left fade_in">
+                        <h1 class="hero_heading">
+                            <span id="animation_text1" class="animate-box">Enjoy Your Healthy</span>
+                              <p id="animation_text2" class="animate-box">Delicious Food</p>
+                        </h1>
+                        <div class="hero_section_content">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias provident laborum,
+                                recusandae delectus corrupti reprehenderit error distinctio eligendi qui consequuntur
+                                officia.
+                            </p>
+                        </div>
+                        <a href="#" class="hero_section_btn">
+                            <div class="explore">
+                                Explore more
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-md-12">
+                    <div class="hero_section_right d-flex justify-content-center fade_in">
+                        <img src="images/hero-img.png" alt="Food">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about_us_section" id="about_us_section">
+        <div class="container">
+            <div class="about_us_heading mb-4 text-center">
+                <h3 class="subheading fade_in">about us</h3>
+                <h3 class="heading fade_in">learn more about us</h3>
+            </div>
+            <div class="row main_row align-items-center g-3">
+                <div class="col-lg-6 col-12 col-sm-12">
+                    <div class="row g-3">
+                        <div class="col-6 text-start">
+                            <div class="about_us_img fade_in"><img src="images/about-1.jpg" class="w-100" alt="about-1"></div>
+                        </div>
+                        <div class="col-6 text-start">
+                            <div class="about_us_img fade_in"><img src="images/about-2.jpg" class="w-75"
+                                    style="margin-top: 25%;" alt="about-2"></div>
+                        </div>
+                        <div class="col-6 text-end">
+                            <div class="about_us_img fade_in"><img src="images/about-3.jpg" class="w-75" alt="about-3"></div>
+                        </div>
+                        <div class="col-6 text-end">
+                            <div class="about_us_img fade_in"><img src="images/about-4.jpg" class="w-100" alt="about-4"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 col-sm-12">
+                    <div class="about_us_section_right ps-5">
+                        <div class="about_us_section_right_heading mb-3">
+                            <h3 class="about_us_section_right_lable fade_in">
+                                good food for your all day good mood
+                            </h3>
+                        </div>
+                        <div class="about_us_section_right_content fade_in ">
+                            <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque?
+                                Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos
+                                officiis quis pariatur earum voluptas quia sed.
+                            </p>
+                            <ul class="about_us_section_right_point ">
+                                <li class="pb-3 fade_in"><i class="fa fa-check fade_in"></i> Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.</li>
+                                <li class="pb-3 fade_in"><i class="fa fa-check fade_in"></i> Quam molestiae fugit aut illo non ex
+                                    voluptatem vel, cum odit</li>
+                                <li class="pb-3 fade_in"><i class="fa fa-check fade_in"></i> quia minima nihil, nostrum exercitationem
+                                    voluptate nobis aliquid</li>
+                            </ul>
+                            <div class="about_us_section_right_bottom mt-4">
+                                <div class="about_us_section_right_bottom_box fade_in">
+                                    <img src="images/advantage-1.png" alt="about_us_img">
+                                    <p>Experienced chefs</p>
+                                </div>
+                                <div class="about_us_section_right_bottom_box fade_in">
+                                    <img src="images/advantage-2.png" alt="about_us_img">
+                                    <p>Original recipes</p>
+                                </div>
+                                <div class="about_us_section_right_bottom_box fade_in">
+                                    <img src="images/advantage-3.png" alt="about_us_img">
+                                    <p>Fresh ingredients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu_section" id="menu_section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="menu_section_heading mb-4 text-center">
+                    <h3 class="subheading fade_in">Our menu</h3>
+                    <h3 class="heading fade_in">check out yummy menu</h3>
+                </div>
+
+                <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active fade_in" id="pills-starter-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-starter" type="button" role="tab" aria-controls="pills-starter"
+                            aria-selected="true">Starter</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fade_in" id="pills-breakfast-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast"
+                            aria-selected="false">BreakFast</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fade_in" id="pills-lunch-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-lunch" type="button" role="tab" aria-controls="pills-lunch"
+                            aria-selected="false">Lunch</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fade_in" id="pills-dinner-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-dinner" type="button" role="tab" aria-controls="pills-dinner"
+                            aria-selected="false">Dinner</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+
+                    <div class="tab-pane fade show active text-center" id="pills-starter" role="tabpanel"
+                        aria-labelledby="pills-starter-tab" tabindex="0">
+                        <div class="tab-header mt-2">
+                            <div class="subheading fade_in">menu</div>
+                            <div class="heading fade_in">
+                                starter
+                            </div>
+                        </div>
+                        <div class="row g-3">
+
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/starter1.png" class="img-fluid fade_in" alt="starter_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading fade_in">Tomato Soup</div>
+                                    <div class="menu-item-price fade_in">
+                                        Rs. 200
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/starter3.webp " class="img-fluid fade_in" alt="starter_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading fade_in">panner tikka</div>
+                                    <div class="menu-item-price fade_in">
+                                        Rs. 350
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/noodles.png" class="img-fluid fade_in" alt="starter_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading fade_in">Veg.Noodles</div>
+                                </div>
+                                <div class="menu-item-price fade_in">
+                                    Rs. 300
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/starter4.webp" class="img-fluid fade_in" alt="starter_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading fade_in">Spring Rolls</div>
+                                </div>
+                                <div class="menu-item-price fade_in">
+                                    Rs. 275
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/starter5.webp" class="img-fluid fade_in" alt="starter_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading fade_in">Veg.Manchurian</div>
+                                </div>
+                                <div class="menu-item-price fade_in">
+                                    Rs. 225
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/starter6.webp" class="img-fluid fade_in" alt="starter_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading fade_in">french fries</div>
+                                </div>
+                                <div class="menu-item-price fade_in">
+                                    Rs. 180
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade text-center" id="pills-breakfast" role="tabpanel"
+                        aria-labelledby="pills-breakfast-tab" tabindex="0">
+                        <div class="tab-header mt-2">
+                            <div class="subheading">menu</div>
+                                    <div class="heading">
+                                breakfast
+                            </div>
+                        </div>
+
+                        <div class="row g-3">
+
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/breakfast1.webp" class="img-fluid" alt="breakfast_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">idlis</div>
+                                    <div class="menu-item-price">
+                                        RS. 60/-
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/breakfast2.webp" class="img-fluid" alt="breakfast_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">samosa</div>
+                                    <div class="menu-item-price">
+                                        RS. 50/-
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/breakfast3.webp" class="img-fluid" alt="breakfast_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">Masala Dosa</div>
+                                </div>
+                                <div class="menu-item-price">
+                                    RS. 120/-
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/breakfast4.webp" class="img-fluid" alt="breakfast_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">chole bhature</div>
+                                </div>
+                                <div class="menu-item-price">
+                                    RS. 125/-
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/breakfast5.webp" class="img-fluid" alt="breakfast_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">parathas</div>
+                                </div>
+                                <div class="menu-item-price">
+                                    RS. 75/-
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a href="#">
+                                    <img src="images/breakfast6.webp" class="img-fluid" alt="breakfast_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">bread jam</div>
+                                </div>
+                                <div class="menu-item-price">
+                                    RS. 40/-
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade text-center" id="pills-lunch" role="tabpanel"
+                        aria-labelledby="pills-lunch-tab" tabindex="0">
+                        <div class="tab-header mt-2">
+                            <div class="subheading">menu</div>
+                            <div class="heading">
+                                lunch
+                            </div>
+                        </div>
+                        <div class="row g-3">
+
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/lunch1.webp" class="img-fluid" alt="lunch_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">mix veg. sabji</div>
+                                    <div class="menu-item-price">
+                                        RS. 130/-
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/lunch2.webp" class="img-fluid" alt="lunch_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">aloo sabaji</div>
+                                    <div class="menu-item-price">
+                                        RS. 100/-
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/lunch3.webp" class="img-fluid" alt="lunch_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">dal fry</div>
+                                </div>
+                                <div class="menu-item-price">
+                                    RS. 160/-
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/lunch4.webp" class="img-fluid" alt="lunch_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">roti</div>
+                                </div>
+                                <div class="menu-item-price">
+                                    RS. 25/-
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/lunch5.png" class="img-fluid" alt="lunch_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">rice</div>
+                                </div>
+                                <div class="menu-item-price">
+                                    RS. 140/-
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/lunch6.webp" class="img-fluid" alt="lunch_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">salad</div>
+                                </div>
+                                <div class="menu-item-price">
+                                    RS. 30/-
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade text-center" id="pills-dinner" role="tabpanel"
+                        aria-labelledby="pills-dinner-tab" tabindex="0">
+                        <div class="tab-header mt-2">
+                            <div class="subheading">menu</div>
+                            <div class="heading">
+                                dinner
+                            </div>
+                        </div>
+                        <div class="row g-3">
+
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/dinner1.webp" class="img-fluid" alt="dinner_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">Pizza</div>
+                                    <div class="menu-item-price">
+                                        RS. 290/-
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/dinner2.webp" class="img-fluid" alt="dinner_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">burger</div>
+                                    <div class="menu-item-price">
+                                        RS. 180/-
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/dinner3.webp" class="img-fluid" alt="dinner_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">pav bhaji</div>
+                                </div>
+                                <div class="menu-item-price">
+                                    RS. 125/-
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/dinner4.webp" class="img-fluid" alt="dinner_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">pani puri</div>
+                                </div>
+                                <div class="menu-item-price">
+                                    RS. 40/-
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/dinner5.webp" class="img-fluid" alt="dinner_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">grill sandwich</div>
+                                </div>
+                                <div class="menu-item-price">
+                                    RS. 80/-
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a href="#">
+                                    <img src="images/dinner6.png" class="img-fluid" alt="dinner_img">
+                                </a>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-heading">sizzler</div>
+                                </div>
+                                <div class="menu-item-price">
+                                    RS. 330/-
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery_section" id="gallery_section">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-lg-12">
+                    <div class="gallery_section_heading text-center">
+                        <div class="subheading fade_in">
+                            gallery
+                        </div>
+                        <div class="heading fade_in">
+                            check our gallery
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 "><a href="#"><img src="images/gallery-1.jpg" alt="gallery_img" class="w-100 fade_in"></a>
+                </div> 
+                <div class="col-lg-3 col-md-6 "><a href="#"><img src="images/gallery-2.jpg" alt="gallery_img" class="w-100 fade_in"></a>
+                </div> 
+                <div class="col-lg-3 col-md-6 "><a href="#"><img src="images/gallery-3.jpg" alt="gallery_img" class="w-100 fade_in"></a>
+                </div> 
+                <div class="col-lg-3 col-md-6 "><a href="#"><img src="images/gallery-4.jpg" alt="gallery_img" class="w-100 fade_in"></a>
+                </div> 
+                <div class="col-lg-3 col-md-6 "><a href="#"><img src="images/gallery-5.jpg" alt="gallery_img" class="w-100 fade_in"></a>
+                </div> 
+                <div class="col-lg-3 col-md-6 "><a href="#"><img src="images/gallery-6.jpg" alt="gallery_img" class="w-100 fade_in"></a>
+                </div> 
+                <div class="col-lg-3 col-md-6 "><a href="#"><img src="images/gallery-7.jpeg" alt="gallery_img" class="w-100 fade_in"></a>
+                </div> 
+                <div class="col-lg-3 col-md-6 "><a href="#"><img src="images/gallery-8.jpeg" alt="gallery_img" class="w-100 fade_in"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation_section" id="reservation_section">
+        <div class="container">
+            <div class="reservation_section_heading text-center">
+                <div class="subheading fade_in">
+                    reservation
+                </div>
+                <div class="heading fade_in">
+                    book your table
+                </div>
+            </div>
+            <div class="row main_row align-items-center g-3">
+                <div class="col-lg-4 col-md-12">
+                    <div class="reservation_img fade_in">
+                        <img src="images/reservation.jpg" alt="reservation">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 d-flex">
+                    <form>
+                        <div class="row gy-4">
+                            <div class="col-lg-4 col-12 col-md-6 fade_in">
+                                <input type="text" name="name" placeholder="Your Name">
+                            </div>
+                            <div class="col-lg-4 col-12 col-md-6 fade_in">
+                                <input type="email" name="email" placeholder="Your Email">
+                            </div>
+                            <div class="col-lg-4 col-12 col-md-6 fade_in">
+                                <input type="text" name="number" placeholder="Your Phone">
+                            </div>
+                            <div class="col-lg-4 col-12 col-md-6 fade_in">
+                                <input type="date" name="date" placeholder="DD-MM-YYYY">
+                            </div>
+                            <div class="col-lg-4 col-12 col-md-6 fade_in">
+                                <input type="time" name="time" placeholder="--:--">
+                            </div>
+                            <div class="col-lg-4 col-12 col-md-6 fade_in">
+                                <input type="text" name="people" placeholder="Number Of Person">
+                            </div>
+                            <div class="col-lg-12 fade_in">
+                                <textarea name="msg" placeholder="Message"></textarea>
+                            </div>
+                            <div class="book_btn text-center mt-3 fade_in">
+                                <button type="submit">BOOK A TABLE</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact_us_section" id="contact_us_section">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-12">
+                    <div class="contact_section_heading text-center">
+                        <div class="subheading fade_in">
+                            contact
+                        </div>
+                        <div class="heading fade_in">
+                            need help? contact us
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact_us_section_box fade_in">
+                        <a href="https://www.google.com/maps/@22.2685319,70.8001026,15z?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </a>
+                        <div class="contact_us_section_box_content">
+                            <h3>Address</h3>
+                           <a href="#"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact_us_section_box fade_in">
+                        <a href="#">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </a>
+                        <div class="contact_us_section_box_content">
+                            <h3>Call Us</h3>
+                            <a href="tel:+91 0123456782"><p>+91 0123456782</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact_us_section_box fade_in">
+                        <a href="#">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </a>
+                        <div class="contact_us_section_box_content">
+                            <h3>Email</h3>
+                            <a href="mailto:info@restfood.com"><p>info@restfood.com</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact_us_section_box fade_in">
+                        <a href="#">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        </a>
+                        <div class="contact_us_section_box_content">
+                            <h3>Opening Hour</h3>
+                            <p>Monday-Sunday: 11AM to 11PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-5">
+                    <div class="footer_logo mb-3">
+                        <a href="#">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="footer_logo_content">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias provident laborum,
+                            recusandae delectus corrupti reprehenderit error distinctio eligendi qui consequuntur
+                            officia.
+                        </p>
+                        <div class="social_icon">
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer_quick_link ps-5">
+                        <div class="footer_heading">
+                            <h3 class="subheading">
+                                quick links
+                            </h3>
+                        </div>
+                        <ul class="footer_link p-0 m-0">
+                            <li><a href="#hero_section">Home</a></li>
+                            <li><a href="#about_us_section">About Us</a></li>
+                            <li><a href="#menu_section">Menu</a></li>
+                            <li><a href="#gallery_section">Gallery</a></li>
+                            <li><a href="#reservation_section">Reservation</a></li>
+                            <li><a href="#contact_us_sectio">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="footer_contact mb-3">
+                        <div class="footer_heading">
+                            <h3 class="subheading">
+                                Address
+                            </h3>
+                        </div>
+                        <div class="footer_contact_detail">
+                            <a href="https://www.google.com/maps/@22.2685319,70.8001026,15z?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </a>
+                        <a href="#"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></a>
+                        </div>
+                    </div>
+
+                    <div class="footer_contact mb-3">
+                        <div class="footer_heading">
+                            <h3 class="subheading">
+                                Contact
+                            </h3>
+                        </div>
+                        <div class="footer_contact_detail">
+                            <a href="#">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </a>
+                            <a href="tel:+91 0123456782"><p>+91 0123456782</p></a>
+                        </div>
+                    </div>
+
+                    <div class="footer_contact mb-3">
+                        <div class="footer_heading">
+                            <h3 class="subheading">
+                                Email
+                            </h3>
+                        </div>
+                        <div class="footer_contact_detail">
+                            <a href="#">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                            <a href="mailto:info@restfood.com"><p>info@restfood.com</p></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright mt-3">
+                    <p class="right_reservred text-center">
+                        <a href="#">RestFood</a> &copy; <span class="year_copyright"></span> | All Rights Reserved
+                    </p>
+                </div>
+            </div>
+    </section>
+    <script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
